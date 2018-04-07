@@ -1,0 +1,34 @@
+#
+# [ Database Configuration Section ]
+#
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdb
+    username: admin
+    password: eva123
+
+#    jpa:
+#            database-platform: com.mycompany.myapp.domain.util.FixedPostgreSQL82Dialect
+#            database: POSTGRESQL
+#            show_sql: true
+#            properties:
+#                hibernate.cache.use_second_level_cache: true
+#                hibernate.cache.use_query_cache: false
+#                hibernate.generate_statistics: true
+#                hibernate.cache.region.factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
+#
+#     mail:
+#            host: localhost
+#            port: 25
+#            username:
+#            password:
+#        messages:
+#            cache-seconds: 1
+#        thymeleaf:
+#            cache: false
+
+server:
+  port: 8090
+
+
